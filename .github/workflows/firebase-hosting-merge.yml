@@ -16,4 +16,4 @@ jobs:
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_CODERETENTION }}
           channelId: live
           projectId: coderetention
-          entryPoint: ./app/firebase.json
+          entryPoint: ./app
