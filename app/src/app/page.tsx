@@ -1,7 +1,7 @@
 "use client"
 
 // Components
-import CodeComponentFull from "@/components/codeComponentFull";
+import CodeComponent from "@/components/codeComponent/codeComponent";
 
 const firstcode = "def hello_world():\n    print(\"Hello, world!\")"
 
@@ -14,8 +14,8 @@ You can return the answer in any order.`
 const Home = () => {
   return (
     <div className="h-screen w-screen flex flex-col bg-zinc-900 text-gray-100">
-      <CodeComponentFull code={firstcode} title="1. Two Sum" description={problemDescription} difficulty="easy"></CodeComponentFull>
-      <CodeComponentFull code={firstcode} title="2. Two Sum" description={problemDescription} difficulty="medium"></CodeComponentFull>
+      <CodeComponent code={firstcode} title="1. Two Sum" description={problemDescription} difficulty="easy"></CodeComponent>
+      <CodeComponent code={firstcode} title="2. Two Sum" description={problemDescription} difficulty="medium"></CodeComponent>
       {/* <CodeComponentFull code={firstcode} title="1. Two Sum" description={problemDescription} difficulty="hard"></CodeComponentFull> */}
     </div>
   );
