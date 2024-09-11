@@ -11,7 +11,7 @@ const CodeDescription = (props: React.PropsWithChildren<CodeDescription>) => {
 
   return (
     <motion.div 
-      className="bg-zinc-800 bg-opacity-70 px-2 w-full flex flex-col"
+      className="bg-zinc-800 bg-opacity-30 px-2 w-full flex flex-col"
       style={{ overflow: "hidden" }}
       initial={{ height: 0 }}
       animate={{ height: "auto" }}

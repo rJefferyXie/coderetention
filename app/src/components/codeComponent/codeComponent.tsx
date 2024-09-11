@@ -35,7 +35,7 @@ const CodeComponentFull = (props: React.PropsWithChildren<CodeComponentFullProps
   }
 
   return (
-    <div className="rounded-lg w-3/5 max-w-4xl mx-auto mb-4 overflow-hidden">
+    <div className="w-3/5 max-w-4xl bg-zinc-800 bg-opacity-40 shadow-lg mx-auto mb-4 overflow-hidden">
       <CodeHeader title={title} showDescription={toggleDescription} difficulty={difficulty}></CodeHeader>
 
       <AnimatePresence key={title + "-description"}>

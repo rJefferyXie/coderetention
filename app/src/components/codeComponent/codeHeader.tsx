@@ -12,7 +12,7 @@ const CodeHeader = (props: React.PropsWithChildren<CodeHeaderProps>) => {
   : "bg-red-400";   // Red for hard
 
   return (
-    <div className="flex cursor-pointer bg-cyan-400 bg-opacity-50 px-4 py-2 hover:brightness-110 duration-200 ease-in-out">
+    <div className="flex cursor-pointer px-4 py-2 hover:brightness-110 duration-200 ease-in-out">
       <h1 className="text-2xl w-full" onClick={() => showDescription()}>
         {title}
       </h1>
